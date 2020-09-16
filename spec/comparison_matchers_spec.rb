@@ -5,6 +5,7 @@ RSpec.describe "comparison matchers" do
 
     describe 100 do
         it { is_expected.to be > 90}
+        it { is_expected.to_not be < 90 }
     end
     
 end
